@@ -1,0 +1,14 @@
+{
+  "name": "coollab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "figma": "node scripts/figma.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

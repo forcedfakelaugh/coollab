@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.tools/
+.DS_Store
+references/figma/showcase-node.json
+references/figma/*-urls.json
+references/figma/downloads/
+artifacts/

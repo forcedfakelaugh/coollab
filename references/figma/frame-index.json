@@ -1,0 +1,590 @@
+[
+  {
+    "id": "4327:7525",
+    "name": "Home",
+    "type": "FRAME",
+    "bounds": {
+      "x": 8688.0,
+      "y": -3877.0,
+      "width": 1920.0,
+      "height": 1080.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:7583",
+    "name": "Nami web",
+    "type": "FRAME",
+    "bounds": {
+      "x": 1539.0,
+      "y": -1611.0,
+      "width": 1920.0,
+      "height": 6261.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:7607",
+    "name": "Frame 427320922",
+    "type": "INSTANCE",
+    "bounds": {
+      "x": 4322.0,
+      "y": -6642.0,
+      "width": 1920.0,
+      "height": 96.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:7608",
+    "name": "icon-park-outline:home",
+    "type": "INSTANCE",
+    "bounds": {
+      "x": 4322.0,
+      "y": -6804.0,
+      "width": 56.0,
+      "height": 62.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:7609",
+    "name": "SHB",
+    "type": "FRAME",
+    "bounds": {
+      "x": 3922.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 8222.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:7620",
+    "name": "VNPTAI test",
+    "type": "FRAME",
+    "bounds": {
+      "x": -365.0,
+      "y": -1367.0,
+      "width": 1440.0,
+      "height": 7749.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:7891",
+    "name": "VFC",
+    "type": "FRAME",
+    "bounds": {
+      "x": 6305.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 8222.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:9986",
+    "name": "Home",
+    "type": "FRAME",
+    "bounds": {
+      "x": 1075.0,
+      "y": -6933.0,
+      "width": 543.5397338867188,
+      "height": 291.1820068359375
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:10045",
+    "name": "About us",
+    "type": "FRAME",
+    "bounds": {
+      "x": 1075.0,
+      "y": -6557.0,
+      "width": 544.0,
+      "height": 1921.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:10318",
+    "name": "Product",
+    "type": "FRAME",
+    "bounds": {
+      "x": 1667.23046875,
+      "y": -6933.0,
+      "width": 543.5397338867188,
+      "height": 1545.5294189453125
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:10568",
+    "name": "News",
+    "type": "FRAME",
+    "bounds": {
+      "x": 2259.4599609375,
+      "y": -6933.0,
+      "width": 543.5397338867188,
+      "height": 2059.950927734375
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:10804",
+    "name": "Trang chủ",
+    "type": "TEXT",
+    "bounds": {
+      "x": 1075.0,
+      "y": -6983.0,
+      "width": 87.0,
+      "height": 22.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:10805",
+    "name": "Trang sản phẩm",
+    "type": "TEXT",
+    "bounds": {
+      "x": 1664.0,
+      "y": -6983.0,
+      "width": 138.0,
+      "height": 22.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:10806",
+    "name": "Trang tin tức",
+    "type": "TEXT",
+    "bounds": {
+      "x": 2259.0,
+      "y": -6983.0,
+      "width": 110.0,
+      "height": 22.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:10807",
+    "name": "About us",
+    "type": "TEXT",
+    "bounds": {
+      "x": 1075.0,
+      "y": -6606.0,
+      "width": 78.0,
+      "height": 22.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:10808",
+    "name": "Monex",
+    "type": "FRAME",
+    "bounds": {
+      "x": 18221.0,
+      "y": 7992.0,
+      "width": 1920.0,
+      "height": 5011.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:10828",
+    "name": "Lending/ All",
+    "type": "FRAME",
+    "bounds": {
+      "x": 6520.0,
+      "y": 9038.0,
+      "width": 823.2445068359375,
+      "height": 3671.09521484375
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:10893",
+    "name": "The A List",
+    "type": "FRAME",
+    "bounds": {
+      "x": 8688.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 7025.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:11194",
+    "name": "Zell V",
+    "type": "FRAME",
+    "bounds": {
+      "x": 11072.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 6616.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:11823",
+    "name": "BUV",
+    "type": "FRAME",
+    "bounds": {
+      "x": 13455.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 6331.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:12254",
+    "name": "Frame 1000005171",
+    "type": "FRAME",
+    "bounds": {
+      "x": 13601.5048828125,
+      "y": 6950.0,
+      "width": 1626.9906005859375,
+      "height": 4635.1083984375
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:12758",
+    "name": "Haki G",
+    "type": "FRAME",
+    "bounds": {
+      "x": 10608.0,
+      "y": 7983.0,
+      "width": 1920.0,
+      "height": 5152.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:17958",
+    "name": "Ominext",
+    "type": "FRAME",
+    "bounds": {
+      "x": 15837.8564453125,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 2961.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:17963",
+    "name": "The Parallel: Metaverse",
+    "type": "FRAME",
+    "bounds": {
+      "x": 18221.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 6837.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:17977",
+    "name": "Frame 427320941",
+    "type": "COMPONENT_SET",
+    "bounds": {
+      "x": 6192.0,
+      "y": -5432.0,
+      "width": 239.0,
+      "height": 123.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:17984",
+    "name": "Work",
+    "type": "COMPONENT_SET",
+    "bounds": {
+      "x": 4567.0,
+      "y": -5490.0,
+      "width": 432.1053466796875,
+      "height": 407.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:17998",
+    "name": "Frame 2",
+    "type": "COMPONENT_SET",
+    "bounds": {
+      "x": 4567.0,
+      "y": -4848.0,
+      "width": 450.0,
+      "height": 112.16101837158203
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:18011",
+    "name": "Prj",
+    "type": "INSTANCE",
+    "bounds": {
+      "x": 4586.0,
+      "y": -5017.0,
+      "width": 245.0,
+      "height": 44.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:18012",
+    "name": "Frame 427320647",
+    "type": "COMPONENT_SET",
+    "bounds": {
+      "x": 4567.0,
+      "y": -4635.8388671875,
+      "width": 80.0,
+      "height": 148.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:18017",
+    "name": "Frame 427320648",
+    "type": "COMPONENT_SET",
+    "bounds": {
+      "x": 4567.0,
+      "y": -4459.8388671875,
+      "width": 80.0,
+      "height": 148.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:18022",
+    "name": "Exp",
+    "type": "COMPONENT_SET",
+    "bounds": {
+      "x": 4350.0,
+      "y": -5992.0,
+      "width": 647.0,
+      "height": 248.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:18033",
+    "name": "Product Listing",
+    "type": "FRAME",
+    "bounds": {
+      "x": 7343.0,
+      "y": 9038.0,
+      "width": 823.2444458007812,
+      "height": 1488.5799560546875
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:18058",
+    "name": "Exchange",
+    "type": "FRAME",
+    "bounds": {
+      "x": 1684.0,
+      "y": 10874.0,
+      "width": 1920.0,
+      "height": 4825.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:18088",
+    "name": "BUV",
+    "type": "FRAME",
+    "bounds": {
+      "x": 11099.8564453125,
+      "y": 13639.0,
+      "width": 1920.0,
+      "height": 5595.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:18557",
+    "name": "Frame 20",
+    "type": "COMPONENT_SET",
+    "bounds": {
+      "x": 9415.0,
+      "y": -4632.0,
+      "width": 232.0,
+      "height": 246.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:18567",
+    "name": "Home",
+    "type": "FRAME",
+    "bounds": {
+      "x": 11493.0,
+      "y": -3877.0,
+      "width": 1920.0,
+      "height": 1080.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:18625",
+    "name": "GreenSM",
+    "type": "FRAME",
+    "bounds": {
+      "x": 22107.0,
+      "y": -1611.0,
+      "width": 1920.0,
+      "height": 11557.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:20463",
+    "name": "COMPRESSO",
+    "type": "FRAME",
+    "bounds": {
+      "x": 24490.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 7321.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:21004",
+    "name": "Exchange",
+    "type": "FRAME",
+    "bounds": {
+      "x": 26873.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 4825.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:21034",
+    "name": "TQD Taxi",
+    "type": "FRAME",
+    "bounds": {
+      "x": 29256.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 5496.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:23060",
+    "name": "DW De Beaute",
+    "type": "FRAME",
+    "bounds": {
+      "x": 31640.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 10118.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:30706",
+    "name": "SANAN",
+    "type": "FRAME",
+    "bounds": {
+      "x": 34023.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 8263.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:34672",
+    "name": "Cà mê",
+    "type": "FRAME",
+    "bounds": {
+      "x": 36405.85546875,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 5816.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:34846",
+    "name": "KysonMotana",
+    "type": "FRAME",
+    "bounds": {
+      "x": 38789.0,
+      "y": -1603.0,
+      "width": 1920.0,
+      "height": 10424.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:36646",
+    "name": "[D] Home",
+    "type": "FRAME",
+    "bounds": {
+      "x": -3378.0,
+      "y": 17620.0,
+      "width": 1440.0,
+      "height": 5332.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:36804",
+    "name": "[D] Giới thiệu",
+    "type": "FRAME",
+    "bounds": {
+      "x": -1668.0,
+      "y": 17620.0,
+      "width": 1440.0,
+      "height": 6118.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:37068",
+    "name": "Tuyển Sinh",
+    "type": "FRAME",
+    "bounds": {
+      "x": 42.0,
+      "y": 21677.0,
+      "width": 1440.0,
+      "height": 5167.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:37243",
+    "name": "Tin Tức",
+    "type": "FRAME",
+    "bounds": {
+      "x": -1668.0,
+      "y": 24055.0,
+      "width": 1440.0,
+      "height": 2626.0
+    },
+    "visible": true
+  },
+  {
+    "id": "4327:37369",
+    "name": "[D] Chương trình học",
+    "type": "FRAME",
+    "bounds": {
+      "x": 42.0,
+      "y": 17620.0,
+      "width": 1440.0,
+      "height": 3798.0
+    },
+    "visible": true
+  }
+]
