@@ -1,0 +1,21 @@
+/* Shared, three-column navigation for every showcase. */
+html{touch-action:manipulation}
+html.language-pending body{opacity:0;visibility:hidden}
+body{padding-top:42px}
+.portfolio-nav{position:fixed;top:0;left:0;right:0;z-index:100;height:42px;box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;padding:0 22px;background:#15181e;color:#f3f4f6;border-bottom:1px solid #ffffff20;font:13px/1.2 Arial,sans-serif;letter-spacing:0;text-transform:none}
+.portfolio-nav .portfolio-return{justify-self:start;display:inline-flex;align-items:center;min-height:42px;padding:0;color:#f3f4f6;text-decoration:none;font:inherit;white-space:nowrap;border:0;background:none}
+.portfolio-nav .portfolio-return:hover{text-decoration:underline;text-underline-offset:4px;color:#fff}
+.portfolio-nav .portfolio-return:focus-visible{outline:2px solid #fff;outline-offset:-4px}
+.portfolio-nav .portfolio-context{display:block;margin:0;text-align:center;font:10px/1.2 Arial,sans-serif;letter-spacing:1px;color:#c2c8d1;white-space:nowrap}
+.portfolio-nav .language-switch{justify-self:end;display:flex;align-items:center;gap:8px;min-height:42px;margin:0;padding:0 4px;border:0;border-radius:0;background:transparent;box-shadow:none;font:11px/1 Arial,sans-serif;letter-spacing:0;text-transform:none;color:#6e777c;cursor:pointer}
+.portfolio-nav .language-switch>span{margin:0}
+.portfolio-nav .language-switch>[data-language]{display:flex;align-items:center;justify-content:center;min-width:26px;min-height:38px;color:#929a9f;position:relative}
+.portfolio-nav .language-switch>[data-language].is-active{color:#fff}
+.portfolio-nav .language-switch>[data-language].is-active:after{content:'';position:absolute;bottom:7px;left:5px;right:5px;height:1px;background:currentColor}
+.portfolio-nav .language-switch:hover>[data-language]:not(.is-active){color:#c6cccf}
+.portfolio-nav .language-switch:focus-visible{outline:2px solid #fff;outline-offset:-3px}
+.rail,.sidebar{top:42px}
+body>.skip{z-index:101}
+.stage{height:calc(100svh - 42px)}
+@media(max-width:700px){.portfolio-nav{padding:0 12px;gap:8px}.rail,.sidebar{top:auto}}
+@media(max-width:380px){.portfolio-nav{padding:0 8px;gap:5px;font-size:11px}.portfolio-nav .portfolio-context{font-size:9px;letter-spacing:.5px}.portfolio-nav .language-switch{gap:3px;padding:0}.portfolio-nav .language-switch>[data-language]{min-width:23px}}

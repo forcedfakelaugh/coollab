@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101110">
+  <meta name="description" content="DƯ ẢNH — launch campaign for a fictional Vietnamese album. Three sides, three states of light, and a prism that moves with the music.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>DƯ ẢNH — Album campaign</title>
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../portfolio-nav.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="../portfolio-icons.js"></script>
+  <script src="../portfolio-language-init.js"></script>
+</head>
+<body>
+  <nav class="portfolio-nav" aria-label="Portfolio navigation"><a class="portfolio-return" href="/playground/">← Playground</a><span class="portfolio-context" data-no-translate>DƯ ẢNH / Ý TƯỞNG ALBUM</span><button class="language-switch" type="button" aria-label="Switch to Vietnamese"><span data-language="vi" lang="vi">VI</span><span aria-hidden="true">/</span><span data-language="en" lang="en">EN</span></button></nav>
+  <a class="skip" href="#exhibit">Skip to the album</a>
+  <main>
+    <section class="exhibit" id="exhibit" aria-labelledby="exhibit-title">
+      <header class="exhibit-header">
+        <a class="edition" href="#about"><span>Dư Ảnh, the band’s self-titled debut album<br><span class="muted">Concept release date: 12.12.2026</span></span></a>
+        <a class="index-link" href="#studies"><span>See the three sides</span><span aria-hidden="true">↓</span></a>
+      </header>
+      <h1 id="exhibit-title" lang="vi" data-no-translate>DƯ ẢNH</h1>
+      <div class="artwork" id="artwork">
+        <img class="artwork-fallback" src="./assets/still.svg" alt="Spectral light folding into a crystalline prism" width="1200" height="900">
+        <canvas id="light-canvas" aria-label="Interactive album cover. Move your pointer to change its perspective."></canvas>
+      </div>
+      <div class="study-caption">
+        <span class="eyebrow"><span class="live-dot" aria-hidden="true"></span><span id="live-label">A living album cover</span></span>
+        <h2><span>The music stops.</span><br><em>The light stays.</em></h2>
+        <p id="scene-description">Side A. Songs that change direction halfway through.</p>
+        <button type="button" class="listen-button" id="listen-button" data-listen aria-pressed="false"><span class="listen-icon" aria-hidden="true"></span><span data-listen-label>Play side A</span></button>
+      </div>
+      <div class="specimen-mark" aria-hidden="true"><span>SIDE</span><strong id="scene-number">A</strong><span id="scene-range" data-no-translate>01–03</span></div>
+      <div class="interaction-hint"><span>Press play. The cover listens.</span></div>
+      <div class="exhibit-console">
+        <div class="scene-selector" role="group" aria-label="Choose a side of the album">
+          <button type="button" class="scene-button is-active" data-scene="0" aria-pressed="true"><span class="scene-index">A</span><span>Refraction</span><span class="scene-dot" aria-hidden="true">●</span></button>
+          <button type="button" class="scene-button" data-scene="1" aria-pressed="false"><span class="scene-index">B</span><span>Dispersion</span><span class="scene-dot" aria-hidden="true">●</span></button>
+          <button type="button" class="scene-button" data-scene="2" aria-pressed="false"><span class="scene-index">C</span><span>Afterglow</span><span class="scene-dot" aria-hidden="true">●</span></button>
+        </div>
+        <div class="console-actions">
+          <button type="button" class="utility-button" id="tune-button" aria-expanded="false" aria-controls="tune-panel"><span>Tune</span></button>
+          <button type="button" class="utility-button" id="pause-button" aria-pressed="false" aria-label="Pause motion"><span id="pause-label">Pause</span></button>
+          <button type="button" class="keep-button" id="capture-button"><span>Make your cover</span><span aria-hidden="true">→</span></button>
+        </div>
+      </div>
+      <div class="tune-panel" id="tune-panel" hidden>
+        <div class="tune-title"><span>Find your frequency.</span><button id="close-tune" type="button" aria-label="Close light settings">×</button></div>
+        <div class="palette-options" role="group" aria-label="Light palette"><button type="button" data-palette="0" class="palette is-active" aria-pressed="true"><i class="spectrum-swatch" aria-hidden="true"></i><span>Spectrum</span></button><button type="button" data-palette="1" class="palette" aria-pressed="false"><i class="ember-swatch" aria-hidden="true"></i><span>Ember</span></button><button type="button" data-palette="2" class="palette" aria-pressed="false"><i class="glacier-swatch" aria-hidden="true"></i><span>Glacier</span></button></div>
+        <label class="intensity-label" for="angle"><span>Angle</span></label>
+        <input id="angle" type="range" min="-100" max="100" value="0">
+        <label class="intensity-label" for="intensity"><span>Intensity</span><output id="intensity-value" for="intensity">55%</output></label>
+        <input id="intensity" type="range" min="0" max="100" value="55">
+      </div>
+      <p id="render-status" class="render-status" role="status" hidden>Still view. Live light is unavailable in this browser.</p>
+      <noscript><p class="render-status">Enable JavaScript to hear the previews and shape the light. A still cover is shown.</p></noscript>
+    </section>
+
+    <div class="exhibit-footnote"><span>An afterimage is what your eye keeps after the light has gone.</span><a href="#about"><span>Scroll to the record</span><span aria-hidden="true">↓</span></a></div>
+
+    <section class="about paper" id="about" aria-labelledby="about-title">
+      <div class="section-label"><span>01 — The idea</span></div>
+      <div class="about-layout">
+        <h2 id="about-title" class="reveal">A song ends.<br><span>Something</span><br><em>stays on.</em></h2>
+        <div class="about-copy reveal"><span class="mini-spectrum" aria-hidden="true"></span><p>Dư ảnh is the Vietnamese word for an afterimage: the shape your eye still sees after you look away.</p><p>So the album has no fixed cover. It is one prism of light that changes with every side and moves with the sound.</p><a class="text-link" href="#studies"><span>See the three sides</span><span aria-hidden="true">↓</span></a></div>
+      </div>
+    </section>
+
+    <section class="studies paper" id="studies" aria-labelledby="studies-title">
+      <div class="section-label"><h2 id="studies-title">02 — The record</h2><span>One light. Three sides. Nine songs.</span></div>
+      <div class="study-grid">
+        <button class="study-card reveal" type="button" data-open-scene="0"><span class="study-image study-image-one"><img src="./assets/refraction.webp" alt="Album cover for side A, a tall prism in vivid blue" width="720" height="900" loading="lazy"><span class="sleeve-type" aria-hidden="true" data-no-translate><span>DƯ ẢNH</span><span>A</span></span><span class="image-action"><span>Play side A</span><span aria-hidden="true">→</span></span></span><span class="study-heading"><span>Refraction</span><small>SIDE A</small></span><span class="study-line">A change in direction.</span><span class="tracks" lang="vi" data-no-translate><span>1. Bẻ cong</span><span>2. Tia đầu</span><span>3. Góc tới</span></span></button>
+        <button class="study-card reveal" type="button" data-open-scene="1"><span class="study-image study-image-two"><img src="./assets/dispersion.webp" alt="Album cover for side B, a broad folded fan of light" width="720" height="900" loading="lazy"><span class="sleeve-type" aria-hidden="true" data-no-translate><span>DƯ ẢNH</span><span>B</span></span><span class="image-action"><span>Play side B</span><span aria-hidden="true">→</span></span></span><span class="study-heading"><span>Dispersion</span><small>SIDE B</small></span><span class="study-line">Everything comes apart.</span><span class="tracks" lang="vi" data-no-translate><span>4. Mọi sắc màu</span><span>5. Cánh quạt</span><span>6. Giữa những đường biên</span></span></button>
+        <button class="study-card reveal" type="button" data-open-scene="2"><span class="study-image study-image-three"><img src="./assets/afterglow.webp" alt="Album cover for side C, a compact ember-like fold of light" width="720" height="900" loading="lazy"><span class="sleeve-type" aria-hidden="true" data-no-translate><span>DƯ ẢNH</span><span>C</span></span><span class="image-action"><span>Play side C</span><span aria-hidden="true">→</span></span></span><span class="study-heading"><span>Afterglow</span><small>SIDE C</small></span><span class="study-line">What stays with you.</span><span class="tracks" lang="vi" data-no-translate><span>7. Điều còn lại</span><span>8. Than hồng</span><span>9. Quay đi</span></span></button>
+      </div>
+    </section>
+
+    <section class="rollout paper" aria-labelledby="rollout-title">
+      <div class="section-label"><h2 id="rollout-title">03 — The rollout</h2><span>Eight weeks in Hanoi and Saigon</span></div>
+      <ol class="rollout-list">
+        <li><div class="mock mock-shelter" aria-hidden="true"><i></i><img src="./assets/refraction.webp" alt="" loading="lazy"><b></b></div><span>Week 1</span><h3>The light appears</h3><p>Bus shelters and rooftop screens show only the prism. No name, no date.</p></li>
+        <li><div class="mock mock-single" aria-hidden="true" lang="vi" data-no-translate><span><img src="./assets/refraction.webp" alt="" loading="lazy"><strong>Bẻ cong</strong><small>DƯ ẢNH</small></span></div><span>Week 3</span><h3>First single</h3><p>“Bẻ cong” is released, and the prism starts moving with the song.</p></li>
+        <li><div class="mock mock-phone" aria-hidden="true"><span><img src="./assets/afterglow.webp" alt="" loading="lazy"></span></div><span>Week 6</span><h3>Your cover</h3><p>Fans make their own cover from the light and share it.</p></li>
+        <li><div class="mock mock-room" aria-hidden="true"><img src="./assets/dispersion.webp" alt="" loading="lazy"><i></i></div><span>Week 8</span><h3>Album day</h3><p>Dark listening rooms open, with one prism in each room following the record.</p></li>
+      </ol>
+      <div class="section-label formats-label"><h3>The formats</h3><span>Pick how you keep it</span></div>
+      <div class="pack" role="img" aria-label="Concept packaging: a 2×LP sleeve, a disc with an etched side D and a clear cassette"><div class="pack-lp"><i class="disc"></i><i class="disc disc-etched"></i><img src="./assets/dispersion.webp" alt="" loading="lazy"></div><div class="pack-tape"><i></i><i></i><span lang="vi" data-no-translate>DƯ ẢNH</span></div></div>
+      <ul class="formats">
+        <li><strong>2×LP</strong><span>Sides A, B and C. Side D has no music, only an etched prism.</span></li>
+        <li><strong>Cassette</strong><span>Clear shell, for the car and the old deck at home.</span></li>
+        <li><strong>Digital</strong><span>All nine songs, with the live cover on the album page.</span></li>
+      </ul>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <div class="section-label"><span>04 — Your copy</span><span>Yours to keep</span></div>
+      <div class="closing-content"><h2 id="closing-title" class="reveal">Some songs<br>stay <em>with you.</em></h2><p>Every cover starts where you stop the light.<br>Save yours as a poster.</p><button class="closing-capture" id="closing-capture" type="button"><span>Make your cover</span><span aria-hidden="true">→</span></button></div>
+      <dl class="case-note">
+        <div><dt>Audience</dt><dd>Young Vietnamese listeners who still buy records</dd></div>
+        <div><dt>Objective</dt><dd>Launch a debut album with one idea people can touch</dd></div>
+        <div><dt>My role</dt><dd>Concept, art direction, copy and build</dd></div>
+        <div><dt>Deliverables</dt><dd>Live cover, three previews, rollout plan, VI/EN launch page</dd></div>
+      </dl>
+      <p class="concept-note">Dư Ảnh is a fictional band, this is a self-initiated concept, and nothing here is on sale. The previews are placeholder sounds synthesized in your browser, not songs from the tracklist.</p>
+      <div class="concept-actions"><a class="closing-capture" href="../../#contact-details"><span>Book a campaign concept</span><span aria-hidden="true">→</span></a></div>
+      <footer><a href="#exhibit" lang="vi" data-no-translate>DƯ ẢNH<span>↑</span></a><span>A concept campaign by <a href="../../">Lucas Nguyen</a></span><span><span>Made with</span> <a href="https://reactbits.dev/backgrounds/prism" target="_blank" rel="noopener noreferrer">React Bits →</a></span></footer>
+    </section>
+  </main>
+
+  <dialog id="print-dialog" aria-labelledby="print-title">
+    <button class="dialog-close" id="close-print" type="button" aria-label="Close poster">×</button>
+    <div class="print-preview"><img id="print-image" alt="Your DƯ ẢNH poster" width="1200" height="1500"></div>
+    <div class="print-copy"><span class="eyebrow">A moment, made yours.</span><h2 id="print-title">Your cover,<br><em>your light.</em></h2><p>The light as you stopped it, saved as a poster. It stays on your device, and nothing is uploaded.</p><a class="download-print" id="download-print" download="du-anh.png"><span>Download poster</span><span aria-hidden="true">↓</span></a><span class="download-detail" data-no-translate>PNG · 1200 × 1500</span></div>
+  </dialog>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

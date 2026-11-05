@@ -1,0 +1,23 @@
+const copy = [
+  ["JungleMind is a concept hero for a fictional AI company: a sunlit glasshouse jungle video, a frosted prompt card and a masked mobile menu.", "JungleMind là trang mở đầu ý tưởng cho một công ty AI giả tưởng: video khu rừng trong nhà kính đầy nắng, khung nhập câu hỏi kính mờ và menu di động dạng mặt nạ."],
+  ["Help", "Trợ giúp"],
+  ["API", "API"],
+  ["Credits", "Tín dụng"],
+  ["News", "Tin tức"],
+  ["Request Access", "Đăng ký dùng thử"],
+  ["Open menu", "Mở menu"],
+  ["Close menu", "Đóng menu"],
+  ["Primary", "Điều hướng chính"],
+  ["Now", "Mới"],
+  ["JungleMind 3.0 is here", "JungleMind 3.0 đã ra mắt"],
+  ["The thinking engine", "Cỗ máy tư duy"],
+  ["shaped for what counts.", "dành cho điều quan trọng."],
+  ["JungleMind is an AI system that reasons through every problem carefully before answering.", "JungleMind là hệ thống AI suy luận cẩn thận qua từng vấn đề trước khi trả lời."],
+  ["Plug into the API, launch in minutes, and ship reasoning you can really rely on.", "Kết nối API, triển khai trong vài phút và mang đến khả năng suy luận bạn thật sự tin cậy."],
+  ["Ask JungleMind", "Hỏi JungleMind"],
+  ["How do rainforests survive?", "Rừng mưa nhiệt đới tồn tại bằng cách nào?"],
+  ["Add attachment", "Thêm tệp đính kèm"],
+  ["Use microphone", "Dùng micro"],
+  ["Send message", "Gửi tin nhắn"],
+];
+export default copy;

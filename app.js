@@ -79,13 +79,12 @@ dialog.addEventListener('close', () => {
   lastTrigger?.focus({ preventScroll: true });
 });
 
-const sectionLinks = [...document.querySelectorAll('.main-nav a')];
+const sectionLinks = [...document.querySelectorAll('.main-nav a[href^="#"]')];
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(entries => {
     for (const entry of entries) {
-      if (!entry.isIntersecting) continue;
-      sectionLinks.forEach(link => link.classList.toggle('active', link.hash === `#${entry.target.id}`));
+      if (entry.isIntersecting) sectionLinks.forEach(link => link.classList.toggle('active', link.hash === `#${entry.target.id}`));
     }
-  }, { rootMargin: '-10% 0px -55% 0px', threshold: 0 });
+  }, { rootMargin: '-10% 0px -55% 0px' });
   document.querySelectorAll('#work, #studio, #services, #contact').forEach(section => observer.observe(section));
 }

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07090b">
+  <meta name="description" content="RELAY is a concept campaign for a fictional running label: a night-running drop shot for wet city streets, with six key visuals, a four-piece kit and an interactive launch page.">
+  <title>RELAY — Run It Forward</title>
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../portfolio-nav.css">
+  <link rel="stylesheet" href="./effects.css">
+  <link rel="stylesheet" href="./style.css?v=5">
+  <script src="../portfolio-icons.js"></script>
+  <script src="../portfolio-language-init.js"></script>
+</head>
+<body>
+  <nav class="portfolio-nav" aria-label="Portfolio navigation"><a class="portfolio-return" href="/playground/">← Playground</a><span class="portfolio-context" data-no-translate>RELAY / FICTIONAL BRAND CONCEPT</span><button class="language-switch" type="button" aria-label="Switch to Vietnamese"><span data-language="vi" lang="vi">VI</span><span aria-hidden="true">/</span><span data-language="en" lang="en">EN</span></button></nav>
+  <a class="skip" href="#campaign">Skip to the campaign</a>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-photo" src="./assets/campaign/start.webp" alt="" width="1536" height="1024" fetchpriority="high">
+      <div class="terminal" id="terminal" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <p class="hero-tag"><span class="pulse" aria-hidden="true"></span><span>The Night Collection / Drop 09</span></p>
+      <div class="hero-core">
+        <h1 id="hero-title" data-no-translate>RELAY</h1>
+        <p class="hero-line" id="hero-line"></p>
+      </div>
+      <div class="hero-foot">
+        <p>Nine p.m. The heat finally breaks, the scooters thin out, and the bridge belongs to whoever shows up.</p>
+        <a class="action action-primary" href="#campaign" data-magnet><span>Explore Drop 09</span><span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="campaign" id="campaign" aria-labelledby="campaign-title">
+      <header class="section-head">
+        <p class="eyebrow">Run It Forward</p>
+        <h2 id="campaign-title">Out past last light.</h2>
+      </header>
+
+      <div class="deck">
+        <div class="carousel" id="carousel" role="region" aria-roledescription="carousel" aria-label="Key visuals" tabindex="0">
+          <div class="carousel-viewport"></div>
+        </div>
+        <p class="sr-only" id="carousel-status" aria-live="polite"></p>
+        <div class="transport">
+          <button type="button" class="square" id="prev" aria-label="Previous visual">←</button>
+          <div class="bars" id="bars"></div>
+          <button type="button" class="square" id="next" aria-label="Next visual">→</button>
+          <output class="counter" id="counter" data-no-translate>01 / 06</output>
+        </div>
+        <div class="caption" aria-label="Selected visual">
+          <h3 id="d-name"></h3>
+          <div>
+            <p class="caption-note" id="d-note"></p>
+            <p class="caption-wearing" id="d-wearing" data-no-translate></p>
+            <button type="button" class="text-action" id="inspect-open"><span>View full frame</span> <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lineup-section" aria-labelledby="lineup-title">
+      <header class="section-head">
+        <p class="eyebrow">The Night Collection</p>
+        <h2 id="lineup-title">Four pieces for the late miles.</h2>
+      </header>
+      <ul class="lineup" id="lineup"></ul>
+    </section>
+
+    <section class="case-section" aria-labelledby="case-title">
+      <header class="section-head">
+        <p class="eyebrow">Field Notes</p>
+        <h2 id="case-title">Why we call it RELAY.</h2>
+      </header>
+      <div class="case">
+        <div><h3>The handoff</h3><p>Nobody runs well in isolation for long. You borrow pace from the person ahead of you, then hold it for whoever comes next.</p></div>
+        <div><h3>The amber seam</h3><p>No oversized chest logos. Just one 3mm signal-amber line tuned to sodium streetlights and motorbike high beams.</p></div>
+        <div><h3>The late window</h3><p>Designed for 28°C humidity and sudden pavement showers—ultralight black fabrics that breathe fast and dry on the run.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p class="foot-title">Pass the baton.</p>
+    <p class="foot-lead">RELAY is a speculative brand study by Lucas Nguyen. If you’re launching a collection, a product drop or a brand story that needs art direction and code under one roof, let’s talk.</p>
+    <div class="foot-actions">
+      <a class="action action-primary" id="book" href="../../#contact-details" data-magnet><span>Book a campaign concept</span><span aria-hidden="true">→</span></a>
+      <a class="action" href="../../#work" data-magnet><span>See all work</span><span aria-hidden="true">→</span></a>
+    </div>
+    <dl class="case-note">
+      <div><dt>Audience</dt><dd>Urban runners logging miles after 9 p.m.</dd></div>
+      <div><dt>Objective</dt><dd>Position a technical night-running drop without cliché slogans</dd></div>
+      <div><dt>My role</dt><dd>Concept, art direction, EN/VI copy and frontend build</dd></div>
+      <div><dt>Deliverables</dt><dd>Six 35mm-style key visuals, four-piece kit, interactive lookbook</dd></div>
+    </dl>
+    <p class="foot-note">RELAY is a fictional label created as a portfolio concept, not a commercial release. Key visuals are AI-generated to a 35mm night-running brief. Interactive shaders and physics are adapted from React Bits by David Haz.</p>
+  </footer>
+
+  <dialog class="inspect" id="inspect" aria-labelledby="inspect-code">
+    <div class="inspect-bar"><p id="inspect-code" data-no-translate></p><button type="button" class="square" id="inspect-close" aria-label="Close">×</button></div>
+    <img id="inspect-image" alt="">
+  </dialog>
+
+  <noscript><p class="noscript">Enable JavaScript to open the campaign.</p></noscript>
+  <script type="module" src="./app.js?v=8"></script>
+</body>
+</html>

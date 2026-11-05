@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#272d29">
+  <meta name="description" content="Meet Lento. An interactive lighting study with a detailed articulated desk lamp and a little room to play.">
+  <title>Lento - A softer side of life.</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../portfolio-nav.css">
+  <link rel="stylesheet" href="style.css">
+  <noscript><style>.configurator,[data-power]{display:none}</style></noscript>
+  <script src="../portfolio-icons.js"></script>
+  <script src="../portfolio-language-init.js"></script>
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <nav class="portfolio-nav" aria-label="Portfolio navigation"><a class="portfolio-return" href="/playground/">← Playground</a><span class="portfolio-context" data-no-translate>LENTO / OBJECT STUDY</span><button class="language-switch" type="button" aria-label="Switch to Vietnamese"><span data-language="vi" lang="vi">VI</span><span aria-hidden="true">/</span><span data-language="en" lang="en">EN</span></button></nav>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="paper-grain" aria-hidden="true"></div>
+  <main id="main">
+    <div class="experience">
+      <div class="story-stage">
+        <div class="stage-backdrop" aria-hidden="true"><div class="studio-grid"></div><div class="evening-halo"></div></div>
+        <header class="site-header"><a class="wordmark" href="#top" aria-label="Lento home">lento<span class="logo-dot"></span></a><nav aria-label="Main navigation"><a href="#inside">A closer look</a><a href="#play" class="header-cta">Find your glow</a></nav></header>
+        <div class="scene" id="scene" role="img" aria-label="An articulated metal lamp clamped to the edge of a stone desktop"><img class="scene-poster" src="assets/lamp-poster.webp" alt="" width="800" height="800" fetchpriority="high"><canvas id="lamp-canvas" aria-hidden="true"></canvas><span class="scene-loading" aria-hidden="true">Preparing your light…</span></div>
+        <div class="story-panels">
+          <section class="story-panel hero" id="top" aria-labelledby="hero-title">
+            <div class="hero-topline"><span>OBJECTS FOR THE UNHURRIED.</span><span>VOL. 01 · THE DESK LIGHT</span></div>
+            <h1 id="hero-title" data-no-translate>lento<span>.</span></h1>
+            <p class="hero-description">A little warmth. A little wonder.<br>A light that feels like good company.</p>
+            <img class="still-lamp" src="assets/lamp.svg" alt="" width="1000" height="1000">
+            <div class="hero-note"><div><p>Light for<br>the slower hours.</p></div></div>
+            <div class="hero-bottom"><button class="power-button" type="button" data-power aria-pressed="true" aria-label="Turn the lamp off"><span class="power-icon" aria-hidden="true">⏻</span><span data-power-label>Lights on</span></button></div>
+          </section>
+          <section class="story-panel reveal" id="inside" aria-labelledby="reveal-title">
+            <div class="reveal-copy"><p class="eyebrow">01 / A DIFFERENT PERSPECTIVE</p><h2 id="reveal-title">An everyday object.<br><em>A different feeling.</em></h2></div>
+            <img class="still-lamp" src="assets/lamp.svg" alt="" width="1000" height="1000">
+            <p class="reveal-caption">Some things do more than light a room.<br>They change the way it feels.</p>
+            <span class="scene-edition" aria-hidden="true" data-no-translate>LENTO · STUDY 001</span>
+          </section>
+          <section class="story-panel anatomy" id="details" aria-labelledby="inside-title">
+            <div class="chapter-copy"><p class="eyebrow">02 / THOUGHTFULLY SIMPLE</p><h2 id="inside-title">Good things.<br><em>In the details.</em></h2><p>A shaped reflector, balanced arms, a reassuring grip. Springs, pivots and little traces of use. Every detail has a purpose.</p></div>
+            <img class="still-lamp" src="assets/lamp.svg" alt="" width="1000" height="1000">
+            <div class="detail-explorer">
+              <ol class="part-list">
+                <li id="detail-0"><span>01</span><div><h3>A focused glow</h3><p>A metal reflector gathers the light into a warm pool.</p></div></li>
+                <li id="detail-1"><span>02</span><div><h3>A little balance</h3><p>Paired springs and articulated arms hold the light in place.</p></div></li>
+                <li id="detail-2"><span>03</span><div><h3>A steady grip</h3><p>A screw clamp anchors the lamp to the edge of your desk.</p></div></li>
+              </ol>
+            </div>
+            <div class="anatomy-aside" aria-hidden="true"><span>FORM, MEET FEELING.</span><span>DETAIL STUDY / 01</span></div>
+          </section>
+          <section class="story-panel play" id="play" aria-labelledby="play-title">
+            <div class="play-copy"><p class="eyebrow">03 / A LITTLE MORE YOU</p><h2 id="play-title">Your corner.<br><em>Your kind of glow.</em></h2><p>Choose a colour. Turn down the day.<br>Make a small moment your own.</p>
+        <div class="configurator"><fieldset><legend><span>The finish</span><output id="finish-name">Terracotta</output></legend><div class="swatches"><button type="button" data-finish="clay" aria-label="Terracotta" aria-pressed="true"><span style="--swatch:#b95735"></span><small>Terracotta</small></button><button type="button" data-finish="chalk" aria-label="Chalk" aria-pressed="false"><span style="--swatch:#ded8ca"></span><small>Chalk</small></button><button type="button" data-finish="olive" aria-label="Olive" aria-pressed="false"><span style="--swatch:#626954"></span><small>Olive</small></button></div></fieldset>
+        <div class="range-control"><label for="brightness">The glow <output id="brightness-value" data-no-translate>75%</output></label><input type="range" id="brightness" min="10" max="100" value="75"></div>
+        <div class="range-control turn-control"><label for="rotation">A different angle <span aria-hidden="true">↔</span></label><input type="range" id="rotation" min="-60" max="60" value="0" step="1"></div>
+        </div>
+            </div>
+            <img class="still-lamp" src="assets/lamp.svg" alt="" width="1000" height="1000">
+          </section>
+        </div>
+        <div class="story-progress" aria-hidden="true"><span data-no-translate>01</span><div><i></i></div><span data-no-translate>04</span></div>
+      </div>
+      <div class="story-track" aria-hidden="true"><div data-stop="top"></div><div data-stop="inside"></div><div data-stop="details"></div><div data-stop="play"></div></div>
+    </div>
+    <section class="closing" id="closing" aria-labelledby="closing-title"><p class="eyebrow">04 / THAT’S THE FEELING</p><h2 id="closing-title">Less rush.<br><em>More glow.</em></h2><a class="round-link" href="#top"><span class="round-arrow" aria-hidden="true">↑</span><span>One more little look</span></a><div class="closing-wordmark" aria-hidden="true" data-no-translate>lento.</div></section>
+  </main>
+  <footer class="site-footer"><div><a href="#top" class="footer-logo" data-no-translate>lento.</a><p>A familiar object. A different perspective.</p></div><p>Interactive design by Lucas Nguyen.<br><a href="https://polyhaven.com/a/desk_lamp_arm_01" target="_blank" rel="noreferrer">Lamp model · Poly Haven</a></p><a href="../../#work">More things I’ve made</a></footer>
+  <p class="render-status sr-only" id="render-status" role="status"></p>
+  <noscript><p class="no-script">This is a still preview. Enable JavaScript to explore the lamp.</p></noscript>
+</body>
+</html>

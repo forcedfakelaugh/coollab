@@ -1,0 +1,6 @@
+svg.portfolio-arrow{display:inline-block;width:1em;height:1em;flex:0 0 auto;vertical-align:-.12em;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+svg.portfolio-arrow>path,svg.portfolio-arrow>use{fill:none;stroke:inherit;stroke-width:inherit}
+/* The diagonal outlines use a font-style baseline and preserve the old glyph advance. */
+svg.portfolio-arrow[data-arrow-style]{vertical-align:-.1em;fill:currentColor;stroke:none}
+svg.portfolio-arrow[data-arrow-style]>path,svg.portfolio-arrow[data-arrow-style]>use{fill:currentColor;stroke:none}
+svg.portfolio-arrow[data-arrow-style="mono"]{width:.602051em}

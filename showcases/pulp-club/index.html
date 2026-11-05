@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head><script src="../portfolio-icons.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1eee5">
+  <meta name="description" content="Pulp Club is an original foodservice packaging website concept by Lucas Nguyen. Browse a small collection and build a simulated sample box.">
+  <title>Pulp Club - Good food deserves good form</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../portfolio-nav.css">
+  <script src="app.js" defer></script>
+<script src="../portfolio-language-init.js"></script><link rel="stylesheet" href="../portfolio-icons.css"></head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <nav class="portfolio-nav" aria-label="Điều hướng portfolio"><a class="portfolio-return" href="/playground/">← Playground</a><span class="portfolio-context">PULP CLUB</span><button class="language-switch" type="button" aria-label="Chuyển sang tiếng Anh"><span data-language="vi" lang="vi" class="is-active">VI</span><span aria-hidden="true">/</span><span data-language="en" lang="en">EN</span></button></nav>
+
+  <div class="announcement"><span>GOOD FORM FOR GOOD FOOD</span><span aria-hidden="true">/</span><span>AN ORIGINAL PACKAGING CONCEPT</span></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Pulp Club, back to top"><span>PULP<br>CLUB<span class="brand-dot">.</span></span></a>
+    <nav class="site-nav" aria-label="Pulp Club navigation"><a href="#collection">Collection</a><a href="#approach">Our approach</a><a href="#materials">Materials</a></nav>
+    <button class="sample-trigger" type="button" data-open-samples>Sample box <span class="sample-count" id="sample-count">0</span></button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-heading"><div><p class="eyebrow"><span class="dot"></span> FOOD SERVICE, REIMAGINED</p><h1 id="hero-title">GOOD FOOD.<br><span>GOOD FORM.</span></h1></div><p class="hero-side">Every meal has a story.<br>Give it a better way to travel.</p></div>
+      <div class="hero-image"><img src="assets/packaging-hero.jpg" alt="Sculptural arrangement of molded fiber bowls, clamshells, trays and a cup" width="1792" height="1024" fetchpriority="high"><div class="hero-image-label"><span>THE EVERYDAY, REFORMED</span><span>01 / 04</span></div></div>
+      <div class="hero-bottom"><p>Purposeful packaging for the kitchens shaping what’s next.</p><a href="#collection" class="round-arrow" aria-label="Explore the collection"><svg class="portfolio-arrow" data-direction="down" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-down"/></svg></a></div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div>LESS FUSS <span>/</span> MORE FEELING <span>/</span> MADE TO BE HELD <span>/</span> LESS FUSS <span>/</span> MORE FEELING <span>/</span> MADE TO BE HELD <span>/</span></div></div>
+
+    <section class="intro section-pad" id="approach" aria-labelledby="approach-title"><div class="section-index">01 / THE IDEA</div><div class="intro-main"><h2 id="approach-title">TAKEAWAY<br>DESERVES A <em>TAKE TWO.</em></h2><div class="intro-foot"><p>Packaging is part of the meal, not an afterthought. Pulp Club explores familiar foodservice forms through a softer material palette, considered details, and shapes that feel as good as they look.</p></div></div></section>
+
+    <section class="collection section-pad" id="collection" aria-labelledby="collection-title"><div class="section-top"><div><p class="section-index">02 / THE COLLECTION</p><h2 id="collection-title">PICK YOUR<br>GOOD FORM<span class="period">.</span></h2></div><p>Four everyday essentials,<br>one very good starting point.</p></div>
+      <div class="filters" role="group" aria-label="Filter products"><button type="button" data-filter="all" aria-pressed="true">All forms <span>04</span></button><button type="button" data-filter="bowls" aria-pressed="false">Bowls</button><button type="button" data-filter="boxes" aria-pressed="false">Boxes</button><button type="button" data-filter="cups" aria-pressed="false">Cups</button><button type="button" data-filter="trays" aria-pressed="false">Trays</button></div>
+      <div class="product-grid">
+        <article class="product-card" data-kind="bowls" data-id="round-bowl"><div class="product-photo lime"><img src="assets/bowls-lime.jpg" alt="Three molded fiber bowls with lids on a lime background" width="1254" height="1254" loading="lazy"><span class="product-number">01 / 04</span></div><div class="product-info"><div><h3>Round &amp; ready</h3><p>Bowls · the all-rounder</p></div><button type="button" class="add-button" data-add="round-bowl" aria-label="Add Round and ready to sample box">+</button></div></article>
+        <article class="product-card" data-kind="boxes" data-id="fold-box"><div class="product-photo clay"><img src="assets/clamshells-trays.jpg" alt="Open and closed molded fiber clamshell boxes on a terracotta background" width="1254" height="1254" loading="lazy"><span class="product-number">02 / 04</span></div><div class="product-info"><div><h3>The good fold</h3><p>Boxes · ready to go</p></div><button type="button" class="add-button" data-add="fold-box" aria-label="Add The good fold to sample box">+</button></div></article>
+        <article class="product-card" data-kind="cups" data-id="daily-cup"><div class="product-photo cream"><img class="cup-crop" src="assets/packaging-hero.jpg" alt="Tall molded fiber cup in a warm studio setting" width="1792" height="1024" loading="lazy"><span class="product-number">03 / 04</span></div><div class="product-info"><div><h3>Daily pour</h3><p>Cups · hold the good stuff</p></div><button type="button" class="add-button" data-add="daily-cup" aria-label="Add Daily pour to sample box">+</button></div></article>
+        <article class="product-card" data-kind="trays" data-id="serve-tray"><div class="product-photo green"><img class="tray-crop" src="assets/clamshells-trays.jpg" alt="Stack of molded fiber serving trays on a terracotta background" width="1254" height="1254" loading="lazy"><span class="product-number">04 / 04</span></div><div class="product-info"><div><h3>Easy does it</h3><p>Trays · room for more</p></div><button type="button" class="add-button" data-add="serve-tray" aria-label="Add Easy does it to sample box">+</button></div></article>
+      </div>
+      <p class="collection-note">Choose a few forms to preview a sample box. This is an interactive concept; no request will be sent.</p>
+    </section>
+
+    <section class="material" id="materials" aria-labelledby="material-title"><div class="material-image"><img src="assets/bowls-lime.jpg" alt="Close view of the texture and form of molded fiber bowls" width="1254" height="1254" loading="lazy"><span>FORM FOLLOWS FEELING</span></div><div class="material-copy"><p class="section-index">03 / MATERIAL MATTERS</p><h2 id="material-title">A BETTER<br>FEEL FOR<br>THE <em>EVERYDAY.</em></h2><p>This concept studies molded-fiber packaging for the moments between kitchen and table. Tactile, simple, and designed to make the ordinary feel considered.</p><a href="#collection" class="text-link">Explore the forms <span aria-hidden="true"><svg class="portfolio-arrow" data-direction="up-right" data-arrow-style="text" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up-right"/></svg></span></a></div></section>
+
+    <section class="closing section-pad"><p class="section-index">04 / YOUR TURN</p><div><h2>WHAT WILL<br>YOU PACK<br><em>NEXT?</em></h2><button type="button" class="closing-button" data-open-samples>Build a sample box <span aria-hidden="true"><svg class="portfolio-arrow" data-direction="up-right" data-arrow-style="text" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up-right"/></svg></span></button></div></section>
+  </main>
+  <footer class="site-footer"><a class="footer-brand" href="#top">PULP CLUB<span>.</span></a><p>Fictional packaging brand and portfolio concept by Lucas Nguyen.<br>Inspired by <a href="https://www.kanaknaturals.com/kustomers/foodservice/" target="_blank" rel="noopener noreferrer">Kanak Naturals’ foodservice page</a>. No products or sample requests are offered.</p><a href="#top">Back to top <svg class="portfolio-arrow" data-direction="up" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up"/></svg></a></footer>
+
+  <dialog class="sample-dialog" id="sample-dialog" aria-labelledby="sample-title"><div class="dialog-head"><span class="dialog-kicker">YOUR GOOD FORMS</span><button class="dialog-close" type="button" data-close-samples aria-label="Close sample box">×</button></div><div id="sample-edit"><h2 id="sample-title">THE SAMPLE<br>BOX<span>.</span></h2><p class="dialog-intro">A small lineup of what caught your eye.</p><p class="empty-box" id="empty-box">Your box is empty. Browse the collection and add a few forms.</p><ul class="sample-items" id="sample-items"></ul><button class="preview-button" type="button" id="preview-request" disabled>Preview sample request <span aria-hidden="true"><svg class="portfolio-arrow" data-direction="up-right" data-arrow-style="text" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up-right"/></svg></span></button><p class="dialog-note">Concept only - no details are collected or sent.</p></div><div id="sample-preview" hidden><p class="section-index">REQUEST PREVIEW</p><h2>GOOD PICKS<span>.</span></h2><p>Your sample box includes <span id="preview-selection"></span>.</p><p>This is a portfolio interaction. No sample request was sent, and no personal details were collected.</p><button class="preview-button" type="button" id="back-to-box">Back to sample box <span aria-hidden="true"><svg class="portfolio-arrow" data-direction="left" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-left"/></svg></span></button></div></dialog>
+  <p class="sr-only" id="live-status" role="status" aria-live="polite"></p>
+</body>
+</html>

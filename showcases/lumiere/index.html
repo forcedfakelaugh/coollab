@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en" data-wait-for-fonts>
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumiere Arts · Contemporary Vietnamese silk painting</title>
+  <meta name="description" content="A redesign proposal for Lumiere Arts: original Vietnamese silk paintings by Nguyễn Văn Trinh, wearable art scarves and handmade art objects, presented as a quiet online gallery."/>
+  <meta name="theme-color" content="#14110e">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500&amp;family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="../portfolio-nav.css"><link rel="stylesheet" href="../portfolio-icons.css">
+  <script src="../portfolio-icons.js"></script><script src="app.js" defer></script><script src="../portfolio-language-init.js"></script>
+</head>
+<body>
+  <nav class="portfolio-nav" aria-label="Portfolio navigation"><a class="portfolio-return" href="/playground/">← Playground</a><span class="portfolio-context">LUMIERE ARTS · PROPOSAL</span><button class="language-switch" type="button" aria-label="Switch to English"><span data-language="vi" lang="vi" class="is-active">VI</span><span aria-hidden="true">/</span><span data-language="en" lang="en">EN</span></button></nav>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Lumiere Arts home">Lumiere <span>Arts</span></a>
+    <nav class="site-nav" aria-label="Gallery navigation"><a href="#collections">Collections</a><a href="#wearable">Wearable art</a><a href="#objects">Objects</a><a href="#artist">Artist</a><a class="nav-cta" href="#visit">Inquire</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-stage">
+        <div class="hero-frame"><img class="hero-art" src="assets/vs1.webp" alt="Vùng sống 1, a long panoramic watercolour on silk of dense, colourful vegetation and birds" width="1600" height="658" fetchpriority="high"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Original Vietnamese silk painting · Hà Nội</p>
+          <h1 id="hero-title">Where contemporary silk becomes <em>timeless art.</em></h1>
+          <a class="button button-light" href="#collections">Discover the collections <svg class="portfolio-arrow" data-direction="right" width="1em" height="1em" aria-hidden="true"><use href="../icons/arrows.svg#arrow-right"/></svg></a>
+        </div>
+        <div class="hero-caption" aria-hidden="true">
+          <span>Scroll to step back</span>
+          <div class="ruler"><i></i><b><span class="ruler-value">0</span> cm</b></div>
+        </div>
+        <p class="hero-credit"><span>Vùng sống 1</span> · Nguyễn Văn Trinh · Watercolour on silk, 160 × 600 cm, 2019</p>
+      </div>
+    </section>
+
+    <section class="intro wrap" aria-labelledby="intro-title">
+      <p class="eyebrow">A journey through silk</p>
+      <h2 id="intro-title">Contemporary Vietnamese art through the delicate language of <em>silk, memory and light.</em></h2>
+      <div class="intro-grid">
+        <figure class="intro-figure"><img src="assets/tth20.webp" alt="A large crimson painting from the Crystallization series hanging above a bed" width="1600" height="1227" loading="lazy"><figcaption>Thủy tinh hóa 20 – Sen Ngự · 200 × 109 cm, installed</figcaption></figure>
+        <ul class="promises">
+          <li><b>01</b><span>One of a kind<small>Every original is hand-signed by the artist and comes with a Certificate of Authenticity.</small></span></li>
+          <li><b>02</b><span>Silk and Giang paper<small>Watercolour layered on silk, often in dialogue with handmade Giang paper.</small></span></li>
+          <li><b>03</b><span>Shipped worldwide<small>Packed for international transport, with shipping insurance where available.</small></span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="collections" id="collections" aria-labelledby="collections-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">01 / The collections</p><h2 id="collections-title">Four series, <em>one hand.</em></h2></div>
+          <p>Open any work to see its details, then see it at true scale on a wall.</p>
+        </div>
+        <div class="series-tabs" role="tablist" aria-label="Series">
+          <button role="tab" type="button" data-series="crystal" aria-selected="true">Thủy Tinh Hóa<small>Crystallization</small></button>
+          <button role="tab" type="button" data-series="living" aria-selected="false">Vùng Sống<small>Living Zone</small></button>
+          <button role="tab" type="button" data-series="still" aria-selected="false">Tĩnh Vật<small>Still Life</small></button>
+          <button role="tab" type="button" data-series="palace" aria-selected="false">Từ Hoa<small>Tu Hoa Palace</small></button>
+        </div>
+        <div class="series-panel" id="series-panel" role="tabpanel" aria-live="polite">
+          <div class="series-intro"><p class="series-count"></p><p class="series-text"></p></div>
+          <div class="works" id="works"></div>
+        </div>
+        <noscript><p>Enable JavaScript to browse the collections.</p></noscript>
+      </div>
+    </section>
+
+    <section class="wearable" id="wearable" aria-labelledby="wearable-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">02 / From painting to fashion</p><h2 id="wearable-title">A painting you can <em>wear.</em></h2></div>
+          <p>Drag across to see how a lotus on silk becomes a hand-finished silk scarf.</p>
+        </div>
+        <div class="compare" style="--split:50%">
+          <img src="assets/scarf_gold2.webp" alt="Golden Lotus silk scarf laid flat: vermilion border, pink lotus and turquoise leaves" width="1254" height="1254" loading="lazy">
+          <div class="compare-top"><img src="assets/ngoclien.webp" alt="Ngọc Liên, a watercolour on silk of pink lotus flowers and turquoise leaves" width="1600" height="1189" loading="lazy"></div>
+          <span class="compare-label compare-label-left">Ngọc Liên · watercolour on silk</span>
+          <span class="compare-label compare-label-right">Golden Lotus · natural silk scarf</span>
+          <span class="compare-handle" aria-hidden="true"></span>
+          <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Compare painting and scarf">
+        </div>
+        <div class="scarf-layout">
+          <div class="scarf-rail" id="scarves"></div>
+          <aside class="scarf-panel" aria-live="polite">
+            <p class="eyebrow">Selected scarf</p>
+            <h3 class="scarf-name"></h3>
+            <p class="scarf-copy"></p>
+            <fieldset class="sizes"><legend>Size</legend><div class="size-options"></div></fieldset>
+            <p class="scarf-price"></p>
+            <ul class="scarf-facts"><li>Natural silk</li><li>Artisanal single-sided print</li><li>Hand-finished edges</li><li>Gift box included</li></ul>
+            <button class="button" type="button" data-add-scarf>Add to inquiry</button>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="objects wrap" id="objects" aria-labelledby="objects-title">
+      <div class="section-head">
+        <div><p class="eyebrow">03 / Art objects</p><h2 id="objects-title">Shaped by hand from <em>Giang paper.</em></h2></div>
+        <p>Paper pulp from Giang bamboo, a material associated with the H’mông community in Hòa Bình, blended with fine clay, lacquer-grounded and painted by hand. No two are alike.</p>
+      </div>
+      <div class="object-grid">
+        <figure class="object object-wide"><img src="assets/horse_bbc.webp" alt="A paper-pulp horse in black, blue and copper on a wooden shelf beside ceramic sculptures" width="1024" height="1024" loading="lazy"><figcaption><span>Horse - Black, Blue &amp; Copper</span><span>$119</span></figcaption></figure>
+        <figure class="object"><img src="assets/horse_rbg.webp" alt="A paper-pulp horse painted in blue, red and gold patterns" width="371" height="502" loading="lazy"><figcaption><span>Horse - Blue, Red &amp; Gold</span><span>$119</span></figcaption></figure>
+        <figure class="object"><img src="assets/horse_nat.webp" alt="A paper-pulp horse in natural terracotta" width="370" height="501" loading="lazy"><figcaption><span>Horse - Natural Terracotta</span><span>$119</span></figcaption></figure>
+        <figure class="object"><img src="assets/deer.webp" alt="Blooming Deer: a sculptural deer form holding flowering branches, displayed in an interior" width="1108" height="1477" loading="lazy"><figcaption><span>Blooming Deer · made to order</span><span>$169</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="artist" id="artist" aria-labelledby="artist-title">
+      <div class="artist-inner wrap">
+        <figure class="artist-photo"><img src="assets/atelier2.webp" alt="Nguyễn Văn Trinh painting a portrait from a seated model in the studio" width="910" height="1276" loading="lazy"></figure>
+        <div class="artist-copy">
+          <p class="eyebrow">04 / The artist</p>
+          <h2 id="artist-title">Nguyễn Văn Trinh</h2>
+          <p class="lead">Imagined landscapes where the boundaries between reality, memory and imagination quietly dissolve.</p>
+          <p>Trinh layers watercolour on silk, letting its translucency meet the expressive energy of Giang paper. The works hold an enduring admiration for nature, and resist fixing emotion inside a single definition.</p>
+          <ol class="process">
+            <li><b>Silk</b>From silkworm cocoon to the painting ground.</li>
+            <li><b>Wash</b>Watercolour built up in thin, luminous layers.</li>
+            <li><b>Gold</b>Gold leaf laid by hand on selected works.</li>
+            <li><b>Signature</b>The last step that completes the work.</li>
+          </ol>
+          <p class="also">Lumiere Arts also presents works by Nguyễn Thọ Hiếu, Khổng Đỗ Duy and Phan Cẩm Thượng.</p>
+        </div>
+      </div>
+      <div class="press wrap" aria-label="In the press">
+        <article><span>Collection</span><p><i>Cung Từ Hoa</i> is held permanently at Dusit Le Palais Tu Hoa Hanoi.</p></article>
+        <article><span>Thanh Niên Việt · 2024</span><p>The “Vùng sống” exhibition by Nguyễn Văn Trinh.</p></article>
+        <article><span>Báo Công Luận · 2026</span><p>Vietnamese artists exhibit at 333 Gallery, Bangkok.</p></article>
+      </div>
+    </section>
+
+    <section class="visit wrap" id="visit" aria-labelledby="visit-title">
+      <div class="visit-info">
+        <p class="eyebrow">05 / Visit &amp; inquire</p>
+        <h2 id="visit-title">See the silk <em>in person.</em></h2>
+        <p>Originals are offered on request. Tell us which works interest you and we will reply with availability, pricing and shipping.</p>
+        <dl class="details">
+          <div><dt>Gallery</dt><dd>Imperia Sky Garden, 423 Minh Khai, Vĩnh Tuy, Hai Bà Trưng, Hà Nội</dd></div>
+          <div><dt>Hotline</dt><dd>+84 944 616 091</dd></div>
+          <div><dt>Also</dt><dd>Custom portraits &amp; commissions · Corporate gifts · Silk for artists</dd></div>
+        </dl>
+      </div>
+      <form class="inquiry" novalidate>
+        <div class="inquiry-list"><p class="label">Your selection</p><ul id="inquiry-items"></ul><p class="empty">Nothing yet. Add a painting or scarf from above.</p></div>
+        <label>Name<input name="name" autocomplete="name" required data-no-translate></label>
+        <label>Email or phone<input name="contact" autocomplete="email" required data-no-translate></label>
+        <label>Message<textarea name="message" rows="3" placeholder="Room, wall size, timing…"></textarea></label>
+        <button class="button" type="submit">Send inquiry</button>
+        <p class="form-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <dialog class="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-body">
+      <div class="viewer-media">
+        <div class="viewer-image"><img alt="" src="assets/tth1.webp" width="977" height="1600"></div>
+        <div class="wall" hidden>
+          <div class="wall-scene"><div class="wall-art"><img alt="" src="assets/tth1.webp"></div><svg class="sofa" viewBox="0 0 210 85" preserveAspectRatio="none" aria-hidden="true"><path d="M8 30h194v35H8zM0 38q0-10 10-10h8v42H0zM192 28h8q10 0 10 10v32h-18zM6 70h198v6H6zM16 76h6v9h-6zM188 76h6v9h-6z"/><path d="M20 22q0-10 10-10h70q4 0 4 4v20H20zM106 16q0-4 4-4h70q10 0 10 10v14h-84z" opacity=".75"/></svg></div>
+          <p class="wall-note"></p>
+          <div class="wall-colours" role="radiogroup" aria-label="Wall colour"><button type="button" role="radio" data-wall="#efe9df" aria-checked="true" aria-label="Ivory wall"></button><button type="button" role="radio" data-wall="#a9b19c" aria-checked="false" aria-label="Sage wall"></button><button type="button" role="radio" data-wall="#2d2a27" aria-checked="false" aria-label="Charcoal wall"></button></div>
+        </div>
+      </div>
+      <div class="viewer-info">
+        <p class="eyebrow viewer-series"></p>
+        <h2 id="viewer-title"></h2>
+        <p class="viewer-en"></p>
+        <dl class="viewer-meta"></dl>
+        <p class="viewer-price">Price on request</p>
+        <div class="viewer-actions"><button class="button" type="button" data-toggle-wall>See it on a wall</button><button class="button button-ghost" type="button" data-add-work>Add to inquiry</button></div>
+        <p class="viewer-included">Hand-signed · Certificate of Authenticity · Insured shipping</p>
+        <div class="viewer-nav"><button type="button" data-step="-1" aria-label="Previous work"><svg class="portfolio-arrow" data-direction="left" width="1em" height="1em" aria-hidden="true"><use href="../icons/arrows.svg#arrow-left"/></svg></button><span class="viewer-index"></span><button type="button" data-step="1" aria-label="Next work"><svg class="portfolio-arrow" data-direction="right" width="1em" height="1em" aria-hidden="true"><use href="../icons/arrows.svg#arrow-right"/></svg></button></div>
+      </div>
+    </div>
+    <button class="viewer-close" type="button" aria-label="Close">×</button>
+  </dialog>
+
+  <footer class="site-footer wrap"><a class="wordmark" href="#top">Lumiere <span>Arts</span></a><p>A website redesign proposal for Lumiere Arts by Lucas Nguyen. Not the live store; the inquiry form sends nothing.<br><span>Artworks, product photography and descriptions © Lumiere Arts, from lumierearts.com, used for this proposal.</span></p><a href="../../#work">Back to portfolio <svg class="portfolio-arrow" data-direction="right" width="1em" height="1em" aria-hidden="true"><use href="../icons/arrows.svg#arrow-right"/></svg></a></footer>
+</body>
+</html>

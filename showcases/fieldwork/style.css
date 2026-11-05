@@ -1,0 +1,11 @@
+/* Portfolio-specific copy spacing; the original exhibit owns its composition. */
+html[lang="vi"] .fw-subtitle{letter-spacing:-1px}
+html[lang="vi"] .fw-study-note{line-height:1.5}
+html[lang="vi"] .fw-about-button{gap:14px}
+html[lang="vi"] .fw-action{white-space:normal}
+html[lang="vi"] .fw-footer>span:first-child{max-width:420px;line-height:1.6}
+@media(max-width:700px){
+  html[lang="vi"] .fw-actions{gap:10px}
+  html[lang="vi"] .fw-action{font-size:10px!important}
+  html[lang="vi"] .fw-footer>span:first-child{max-width:250px}
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+<head><script src="../portfolio-icons.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f9f6ef">
+<title>Pip - Phụ bạn việc kinh doanh</title>
+<meta name="description" content="Trợ lý nhỏ cho Cà phê Góc Nhỏ, Nhà Bên Vườn và Tiệm hoa Mây. Hỏi về thu chi, khách hàng, lịch đặt và những việc cần làm.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../portfolio-nav.css"><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+<script src="../portfolio-language-init.js"></script><link rel="stylesheet" href="../portfolio-icons.css"></head>
+<body>
+<a class="skip" href="#composer-input">Đến ô nhập câu hỏi</a>
+<nav class="portfolio-nav" aria-label="Điều hướng portfolio"><a class="portfolio-return" href="/playground/">← Playground</a><span class="portfolio-context">PIP</span><button class="language-switch" type="button" aria-label="Chuyển sang tiếng Anh"><span data-language="vi" lang="vi" class="is-active">VI</span><span aria-hidden="true">/</span><span data-language="en" lang="en">EN</span></button></nav>
+<div class="workspace-app">
+<header class="masthead">
+  <a class="brand" href="./" aria-label="Trang chủ Pip"><img class="brand-mascot" src="mascot.svg" alt="" width="52" height="52"><img class="brand-logo" src="logo.svg" alt="Pip" width="77" height="48"></a>
+  <div class="header-tools">
+  <button id="sources-toggle" class="sources-toggle" type="button" aria-controls="sources" aria-expanded="false">Ghi chép</button>
+  <button class="new-chat" id="new-chat" type="button" aria-label="Cuộc trò chuyện mới" title="Cuộc trò chuyện mới (⌘K)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg></button></div>
+</header>
+<div class="shell">
+<main class="chat" id="main">
+  <div class="thread" id="thread"><section class="empty" id="empty"><h1>Hôm nay cần phụ gì?</h1><p class="empty-sub" id="business-context">Quán cà phê, nhà cho thuê và tiệm hoa của bạn.</p></section></div>
+  <div class="dock">
+    <div class="businesses" id="businesses" role="group" aria-label="Chọn cơ sở kinh doanh"></div>
+    <form class="composer" id="composer"><label class="sr-only" for="composer-input">Nhập câu hỏi về việc kinh doanh</label><textarea id="composer-input" rows="1" placeholder="Hỏi chuyện quán, nhà cho thuê hay tiệm hoa…" autocomplete="off"></textarea>
+      <div class="composer-bar">
+        <button class="send" id="send" type="submit" aria-label="Gửi câu hỏi"><span>Hỏi Pip</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></button>
+      </div>
+    </form>
+    <div class="suggestions" id="suggestions"></div>
+  </div>
+</main>
+<aside class="sources" hidden id="sources" aria-labelledby="sources-title">
+  <div class="sources-head"><h2 id="sources-title">Ghi chép <span id="library-count"></span></h2><button class="sources-close" id="sources-close" type="button" aria-label="Đóng ghi chép">×</button></div>
+  <p class="sources-intro">Phản hồi, lịch đặt và những việc cần nhớ.</p>
+  <div class="source-tabs" role="group" aria-label="Chọn nhóm ghi chép"><button type="button" id="library-tab" aria-pressed="true" aria-controls="library-panel">Tất cả</button><button type="button" id="cited-tab" aria-pressed="false" aria-controls="cited-panel">Đã tham khảo <span id="cited-count">0</span></button></div>
+  <div id="library-panel"><ol class="library-list" id="library-list"></ol></div>
+  <div id="cited-panel" hidden><ol class="source-list" id="source-list"><li class="source-empty">Ghi chép được dùng trong câu trả lời sẽ hiện ở đây.</li></ol></div>
+</aside>
+</div>
+</div>
+<div class="cite-pop" id="cite-pop" role="tooltip" hidden></div>
+<dialog id="doc-dialog" aria-labelledby="doc-title"><form method="dialog"><button class="close-dialog" aria-label="Đóng ghi chép">×</button></form><p class="eyebrow" id="doc-kind"></p><h2 id="doc-title"></h2><p class="doc-meta" id="doc-meta"></p><div class="doc-body" id="doc-body"></div></dialog>
+<div class="sr-only" role="status" id="status"></div>
+</body></html>

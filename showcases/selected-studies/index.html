@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#eeedea">
+    <meta name="description" content="Parallax: a collection of image studies and photographs exploring atmosphere, architecture, material and motion. A digital collection by Lucas Nguyen.">
+    <title>Parallax - Lucas</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/responsive/monsoon-960.webp" as="image" imagesrcset="assets/responsive/monsoon-480.webp 480w, assets/responsive/monsoon-960.webp 960w, assets/monsoon-rain.webp 2000w" imagesizes="(max-width: 760px) min(60vw, 28svh), (max-height: 540px) 25vw, (max-width: 1100px) 32vw, clamp(310px, 29vw, 620px)" fetchpriority="high">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../portfolio-nav.css">
+    <link rel="stylesheet" href="../portfolio-icons.css">
+    <script src="../portfolio-icons.js"></script>
+    <script src="experiments.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="../portfolio-language-init.js"></script>
+  </head>
+  <body>
+    <nav class="portfolio-nav" aria-label="Điều hướng portfolio"><a class="portfolio-return" href="/playground/">← Playground</a><span class="portfolio-context">PARALLAX</span><button class="language-switch" type="button" aria-label="Chuyển sang tiếng Anh"><span data-language="vi" lang="vi" class="is-active">VI</span><span aria-hidden="true">/</span><span data-language="en" lang="en">EN</span></button></nav>
+    <a class="skip-link" href="#gallery-control">Skip to the studies</a>
+    <div class="page-shell" id="page-shell">
+      <header class="site-header">
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open menu" aria-haspopup="dialog" aria-controls="mobile-menu-dialog" aria-expanded="false"><span></span><span></span></button>
+        <a class="identity" href="#work" aria-label="Lucas, Parallax">
+          <span class="identity-mark">lucas<span>®</span></span>
+          <span class="identity-small">Independent<br>design & development</span>
+        </a>
+        <nav class="navigation" aria-label="Main navigation">
+          <span class="eyebrow menu-label">Explore</span>
+          <a class="nav-link is-current" href="#work"><span class="nav-arrow"><svg class="portfolio-arrow" data-direction="up-right" data-arrow-style="text" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up-right"/></svg></span> Work</a>
+          <button class="nav-link" data-panel="about">About</button>
+          <button class="nav-link" data-panel="playground">Playground</button>
+          <button class="nav-link" data-panel="contact">Contact</button>
+        </nav>
+        <button class="sound-toggle small" id="sound-toggle" aria-pressed="false">Sound <span id="sound-state">Off</span></button>
+        <div class="location small"><span>Somewhere in Saigon</span><br><span class="muted">HCMC, <time id="local-time">00:00</time></span></div>
+        <div class="edition small"><span>Independent explorations</span><br><span class="muted">Collection № 01 / 2026</span></div>
+      </header>
+
+      <main id="gallery-control" class="gallery-control" tabindex="0" aria-label="Parallax. Scroll, swipe, or use the arrow keys to explore.">
+        <h1 class="sr-only">Parallax by Lucas Nguyen</h1>
+        <div class="media-stage" id="media-stage" aria-label="Showcase images"></div>
+        <aside class="project-meta" aria-label="Current study details">
+          <dl class="meta-type"><dt>Discipline</dt><dd id="meta-discipline">Art direction<br>Creative development</dd></dl>
+          <div class="meta-second">
+            <dl><dt>Year</dt><dd>2026</dd></dl>
+            <dl><dt>Exploring</dt><dd id="meta-focus">Atmosphere<br>Rain & reflected light<br>A sense of place</dd></dl>
+          </div>
+        </aside>
+        <div class="project-rail" id="project-rail" aria-label="Select a study"></div>
+        <div class="counter-block" aria-hidden="true"><span class="small muted counter-label">Parallax</span><span class="counter-number" id="counter-number">01</span><span class="counter-total small">/12</span></div>
+        <p class="sr-only" id="announcement" role="status" aria-live="polite" aria-atomic="true">Study 1 of 12: Monsoon</p>
+      </main>
+
+      <footer class="site-footer">
+        <span class="scroll-prompt small"><span class="scroll-line" aria-hidden="true"><svg class="portfolio-arrow" data-direction="down" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-down"/></svg></span> <span class="desktop-scroll">Scroll to explore</span><span class="mobile-scroll">Swipe to explore</span></span>
+        <div class="gallery-actions"><button class="index-toggle small" data-panel="index" aria-label="Open collection index">Index</button><button id="previous" aria-label="Previous study"><svg class="portfolio-arrow" data-direction="left" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-left"/></svg></button><button id="next" aria-label="Next study"><svg class="portfolio-arrow" data-direction="right" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-right"/></svg></button><button class="open-study small" id="open-study">View study <span aria-hidden="true"><svg class="portfolio-arrow" data-direction="up-right" data-arrow-style="text" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up-right"/></svg></span></button></div>
+      </footer>
+    </div>
+
+    <dialog class="mobile-menu-dialog" id="mobile-menu-dialog" aria-label="Main navigation">
+      <button class="mobile-menu-close" data-close aria-label="Close menu">Close ×</button>
+      <nav aria-label="Main navigation"><button data-panel="work">Work</button><button data-panel="about">About</button><button data-panel="playground">Playground</button><button data-panel="index">Index</button><button data-panel="contact">Contact</button></nav>
+    </dialog>
+
+    <dialog class="sheet case-sheet" id="study-dialog" aria-labelledby="study-title">
+      <div class="sheet-top"><a class="sheet-wordmark" href="#work" data-close>lucas®</a><span class="small muted" id="study-position">Study 01 / 12</span><button class="close-button" data-close aria-label="Close study">Close <span aria-hidden="true">×</span></button></div>
+      <article class="case-intro"><p class="eyebrow" id="study-category"></p><p class="study-intro" id="study-intro"></p><div class="study-description" id="study-description"></div><dl><dt>Study</dt><dd id="study-focus"></dd><dt>Year</dt><dd>2026</dd></dl><p class="study-note small muted">Photography by Hieu Do Quang / Unsplash.</p><button class="text-link" id="view-artwork">View full image <svg class="portfolio-arrow" data-direction="up-right" data-arrow-style="text" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up-right"/></svg></button></article>
+      <div class="case-gallery">
+        <figure id="case-frame-0"><img id="study-image" alt=""><figcaption><span>01 / The atmosphere</span><span id="image-kind">Reference photograph</span></figcaption></figure>
+        <figure class="case-detail-pair" id="case-frame-1"><div><img id="study-detail-a" loading="lazy" alt="Detail of the study image"></div><div><img id="study-detail-b" loading="lazy" alt="Detail of the study image"></div><figcaption><span>02 / A closer look</span><span>Details from the same study</span></figcaption></figure>
+        <figure class="case-poster" id="case-frame-2"><span class="small">Independent studies / 2026</span><strong id="case-poster-name"></strong><em id="case-poster-phrase"></em><span class="small">Lucas Nguyen · Art direction & creative development</span></figure>
+        <button class="next-study case-next" id="next-study"><span>Next study</span><span id="next-study-name"></span><span aria-hidden="true"><svg class="portfolio-arrow" data-direction="up-right" data-arrow-style="text" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up-right"/></svg></span></button>
+      </div>
+      <div class="case-minimap" aria-label="Project sections"><button data-frame="0" aria-label="Go to the atmosphere image"><img loading="lazy" alt="" class="mini-image"></button><button data-frame="1" aria-label="Go to the image details"><img loading="lazy" alt="" class="mini-image mini-detail"></button><button data-frame="2" aria-label="Go to the typographic study"><span id="mini-title">M</span></button></div>
+      <h2 class="case-title" id="study-title"></h2>
+    </dialog>
+
+    <dialog class="sheet index-sheet" id="index-dialog" aria-labelledby="index-title">
+      <div class="sheet-top"><a class="sheet-wordmark" href="#work" data-close>lucas®</a><span class="small muted">The complete collection</span><button class="close-button" data-close aria-label="Close index">Close <span aria-hidden="true">×</span></button></div>
+      <div class="index-heading"><h2 id="index-title">A few things<br>worth exploring.</h2><p class="small muted">Twelve studies.<br>Twelve different perspectives.</p></div><div class="index-grid" id="index-grid"></div>
+    </dialog>
+
+    <dialog class="sheet about-sheet" id="about-dialog" aria-labelledby="about-title">
+      <div class="sheet-top"><a class="sheet-wordmark" href="#work" data-close>lucas®</a><span class="small muted">A note on the collection</span><button class="close-button" data-close aria-label="Close about">Close <span aria-hidden="true">×</span></button></div>
+      <div class="about-scene"><p class="about-note">AI engineer.<br>Website developer.<br>A curious eye for the details.<br>Based in Vietnam.<br>Always making something.</p><div class="about-year" aria-hidden="true"><span>20</span><span>26</span></div><div class="about-monogram" aria-hidden="true"><span>l<span class="monogram-dot">.</span>n</span><svg viewBox="0 0 240 240"><ellipse cx="120" cy="120" rx="112" ry="82" transform="rotate(-32 120 120)"/><ellipse cx="120" cy="120" rx="112" ry="82" transform="rotate(32 120 120)"/></svg></div><h2 class="sr-only" id="about-title">About Lucas Nguyen</h2></div>
+      <div class="about-columns"><div><p class="eyebrow">A little background</p><p>I’m Lucas, a developer based in Vietnam. I work with AI agents, LLM workflows, and the products built around them.</p><p>This collection is a place to explore the visual side of that work.</p></div><div><p class="eyebrow">Things I work on</p><p>AI agents & assistants<br>LLM workflows & integrations<br>Websites & landing pages<br>Interactive prototypes<br>Creative development</p></div><div><p class="eyebrow">A way of working</p><p>Start with a clear idea.<br>Make something you can try.<br>Pay attention to the details.</p><button class="text-link" data-panel="approach">Process & approach <svg class="portfolio-arrow" data-direction="up-right" data-arrow-style="text" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up-right"/></svg></button></div><p class="about-manifesto">Turning a good idea into something considered, useful, and a little unexpected.</p></div>
+    </dialog>
+
+    <dialog class="sheet playground-sheet" id="playground-dialog" aria-labelledby="playground-title">
+      <div class="sheet-top"><a class="sheet-wordmark" href="#work" data-close>lucas®</a><span class="small muted">Ideas in motion</span><button class="close-button" data-close aria-label="Close playground">Close <span aria-hidden="true">×</span></button></div>
+      <aside class="playground-aside"><h2 id="playground-title">Playground</h2><span class="playground-count">16</span><p>A place for small experiments. Some are images, some respond to you. Move things around. Follow a detail. See what happens.</p><button class="text-link small" id="playground-pause" aria-pressed="false">Pause motion Ⅱ</button></aside>
+      <div class="playground-grid" id="playground-grid"></div>
+    </dialog>
+
+    <dialog class="sheet experiment-sheet" id="experiment-dialog" aria-labelledby="experiment-title">
+      <div class="sheet-top"><a class="sheet-wordmark" href="#work" data-close>lucas®</a><span class="small muted">A small interactive experiment</span><button class="close-button" data-close aria-label="Close experiment">Close <span aria-hidden="true">×</span></button></div>
+      <div class="experiment-layout"><div class="experiment-heading"><span class="eyebrow" id="experiment-number"></span><h2 id="experiment-title"></h2><p id="experiment-description"></p></div><canvas id="experiment-canvas" aria-label="Interactive abstract artwork. Move your pointer or touch the canvas to change it."></canvas><div class="experiment-controls"><label for="experiment-intensity">Intensity <output id="intensity-value">50</output><input type="range" id="experiment-intensity" min="0" max="100" value="50"></label><button id="experiment-pause" aria-pressed="false">Pause Ⅱ</button><button id="experiment-reset">Reset <svg class="portfolio-arrow" data-direction="reset" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-reset"/></svg></button></div></div>
+    </dialog>
+
+    <dialog class="sheet approach-sheet" id="approach-dialog" aria-labelledby="approach-title"><div class="sheet-top"><a class="sheet-wordmark" href="#work" data-close>lucas®</a><span class="small muted">From an idea to something you can use</span><button class="close-button" data-close aria-label="Close approach">Close <span aria-hidden="true">×</span></button></div><div class="approach-content"><h2 id="approach-title">Make it.<br>Try it.<br><em>Make it better.</em></h2><ol><li><span>01</span><div><h3>Find the idea</h3><p>Get clear on what the experience should do and how it should feel.</p></div></li><li><span>02</span><div><h3>One good starting point</h3><p>Build the key screen and interaction first. Make the direction tangible.</p></div></li><li><span>03</span><div><h3>Follow it through</h3><p>Carry the same attention into the other pages, the small states, and the phone layout.</p></div></li><li><span>04</span><div><h3>Try it for real</h3><p>Check the rendered result, use the interactions, and refine what gets in the way.</p></div></li></ol></div></dialog>
+
+    <dialog class="contact-sheet" id="contact-dialog" aria-labelledby="contact-title"><div class="contact-deck"><section class="contact-card"><h2 id="contact-title">Come say hello.</h2><div class="contact-columns"><div><span class="eyebrow">Have something in mind?</span><a id="contact-email-link" href="mailto:lucasnguyen.sh@gmail.com">lucasnguyen.sh@gmail.com <svg class="portfolio-arrow" data-direction="up-right" data-arrow-style="text" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up-right"/></svg></a><button class="copy-email small" id="copy-email">Copy email</button><p class="small" id="copy-status" role="status"></p></div><div><span class="eyebrow">Based in</span><p>Vietnam<br>Working across the web</p><span class="eyebrow">Take a look around</span><button data-panel="playground">The playground <svg class="portfolio-arrow" data-direction="up-right" data-arrow-style="text" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up-right"/></svg></button><button data-panel="index">Parallax <svg class="portfolio-arrow" data-direction="up-right" data-arrow-style="text" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="../icons/arrows.svg#arrow-up-right"/></svg></button></div></div><button class="contact-close" data-close aria-label="Close contact">Close ×</button></section><section class="colophon-card"><h3>Colophon</h3><div><p><span class="eyebrow">Made for</span><br>Lucas Nguyen<br>Independent explorations</p><p><span class="eyebrow">The imagery</span><br>Original concepts & selected photographs<br>The image collection, 2026</p></div><span class="colophon-mark" aria-hidden="true">ln.</span></section></div></dialog>
+    <dialog class="artwork-sheet" id="artwork-dialog" aria-label="Full image"><button class="artwork-close" id="artwork-close">Close ×</button><img id="artwork-image" decoding="async" alt=""></dialog>
+
+    <noscript><div class="no-script"><h1>Parallax</h1><p>Enable JavaScript for the interactive gallery, or open the images below.</p><a href="assets/monsoon-rain.webp">Monsoon</a><a href="assets/strata-courtyard.webp">Strata</a><a href="assets/lacquer.webp">Lacquer</a><a href="assets/resonance.webp">Resonance</a><a href="assets/canopy.webp">Canopy</a><a href="assets/after-hours.webp">After Hours</a><a href="assets/colonnade.webp">Colonnade</a><a href="../hien/assets/clay-pavilion.jpg">Still Water</a><a href="../hien/assets/white-gallery.jpg">Ochre</a><a href="../hien/assets/tree-house-interior.jpg">Threshold</a><a href="../mai-le/assets/seascape.jpg">Mai Lê</a><a href="../elseform/assets/la-tea.webp">LÁ</a></div></noscript>
+  </body>
+</html>

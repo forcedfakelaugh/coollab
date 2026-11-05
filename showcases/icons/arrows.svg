@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- Shared arrow geometry. Page markup and portfolioIcons.arrow() reference these symbols. -->
+  <symbol id="arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="arrow-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="arrow-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 19h14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="arrow-swap" viewBox="0 0 24 24"><path d="M4 7h15M15 3l4 4-4 4M20 17H5M9 13l-4 4 4 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="arrow-reset" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="arrow-up-right" viewBox="0 -900 1000 1000"><path d="M245 -92L691 -541L701 -330L730 -330C732 -452 739 -520 760 -640C640 -619 572 -612 450 -610L450 -581L661 -571L216 -121Z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="arrow-down-left" viewBox="0 -900 1000 1000"><path d="M758 -667L309 -219L299 -430L270 -430C268 -307 261 -241 240 -120C361 -141 427 -148 550 -150L550 -179L339 -189L787 -637Z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="arrow-up-left" viewBox="0 -900 1000 1000"><path d="M138.672 -722.656L437.012 -722.656L313.477 -599.121L861.328 -51.27L810.547 -0L262.207 -548.34L138.672 -424.805Z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="arrow-down-right" viewBox="0 -900 1000 1000"><path d="M861.328 -0L563.477 -0L687.012 -123.535L138.672 -671.875L189.941 -722.656L737.793 -174.805L861.328 -298.34Z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="arrow-up-right-mono" viewBox="0 -900 602.051 1000"><path d="M512.207 -394.043L512.207 -192.871L450.195 -192.871L450.195 -303.711L146.484 -0L89.844 -56.641L393.555 -360.352L282.715 -360.352L282.715 -422.363L483.887 -422.363Z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="arrow-down-left-mono" viewBox="0 -900 602.051 1000"><path d="M89.844 -28.32L89.844 -229.492L151.855 -229.492L151.855 -118.652L455.566 -422.363L512.207 -365.723L208.496 -62.012L319.336 -62.012L319.336 -0L118.164 -0Z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="arrow-up-right-cham" viewBox="0 0 20 20"><path d="M3 17 17 3M3 3h14v14" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
