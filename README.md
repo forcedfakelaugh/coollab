@@ -26,7 +26,7 @@ The initial production deployment is `efee1297-3923-4b59-aa8d-2a6be09d85e5`. All
 
 Project data is in `content/projects.json`. After editing it, run `node scripts/render-projects.mjs` to regenerate the gallery. Project cards open accessible native dialogs with full artwork; their ordinary links open the original Figma frames when JavaScript is unavailable.
 
-The `/playground/` page collects 23 concepts from the sibling `lucas-portfolio` checkout, listed in `content/playground.json`. It uses a minimal text index, with full-page concept links and return navigation. `node scripts/import-showcases.mjs` refreshes the concept files and shared translations. The original portfolio is left intact.
+The `/playground/` page collects 17 concepts from the sibling `lucas-portfolio` checkout, listed in `content/playground.json`. It uses a minimal text index, with full-page concept links and return navigation. `node scripts/import-showcases.mjs` refreshes the concept files and shared translations. The original portfolio is left intact.
 
 The project-local Figma CLI can be run with `npm run figma -- <command>`. The wrapper reads `FIGMA_TOKEN` from `.env.local`, which is excluded from Git and not served by the development server. `.tools/`, raw Figma responses, signed export URLs and QA artifacts are also excluded from publication.
 

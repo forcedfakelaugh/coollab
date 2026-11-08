@@ -11,4 +11,4 @@
 
 ## Playground
 
-The 23 concepts listed in `content/playground.json` are copied from the local lucas-portfolio project. Original attribution, concept disclosures, image credits and licenses remain in their concept folders. These are independent concepts and proposals, not Coollab client engagements.
+The 17 concepts listed in `content/playground.json` are copied from the local lucas-portfolio project. Original attribution, concept disclosures, image credits and licenses remain in their concept folders. These are independent concepts and proposals, not Coollab client engagements.

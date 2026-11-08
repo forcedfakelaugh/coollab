@@ -30,11 +30,6 @@
     "category": "AI interface"
   },
   {
-    "title": "Dư Ảnh",
-    "href": "/showcases/afterimage/",
-    "category": "album campaign"
-  },
-  {
     "title": "Lento",
     "href": "/showcases/lento/",
     "category": "interactive object study"
@@ -55,11 +50,6 @@
     "category": "architecture"
   },
   {
-    "title": "Elseform Agency",
-    "href": "/showcases/elseform/",
-    "category": "branding agency"
-  },
-  {
     "title": "Nature Island",
     "href": "/showcases/nature-island/",
     "category": "travel & exploration"
@@ -75,16 +65,6 @@
     "category": "restaurant"
   },
   {
-    "title": "Solen Retreat",
-    "href": "/showcases/serein/",
-    "category": "hospitality"
-  },
-  {
-    "title": "Mộc",
-    "href": "/showcases/moc/",
-    "category": "booking flow"
-  },
-  {
     "title": "Pip",
     "href": "/showcases/pip/",
     "category": "ai interface"
@@ -93,16 +73,6 @@
     "title": "Orbit",
     "href": "/showcases/orbit/",
     "category": "dashboard"
-  },
-  {
-    "title": "Halyard",
-    "href": "/showcases/halyard/",
-    "category": "saas"
-  },
-  {
-    "title": "Pulp Club",
-    "href": "/showcases/pulp-club/",
-    "category": "foodservice"
   },
   {
     "title": "Fieldwork",
